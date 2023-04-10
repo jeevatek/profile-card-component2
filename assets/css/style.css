@@ -1,0 +1,79 @@
+/* CSS Document 
+--------------------------*/
+
+/* Import Google Fonts
+-------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+
+/* Box sizing rules 
+-------------------------------*/
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+
+/* Set root defaults 
+------------------------------*/ 
+:root {
+    /*    Colors*/
+    --color-1: ;
+    --color-2: ;
+    --color-3: ;
+    --color-4: ;
+    --color-5: ;
+    --color-6: ;
+    /*    Fonts*/
+    --font-family: 'Poppins', sans-serif;
+}
+
+/* Remove default margin & padding 
+----------------------------------------*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Default Font size 10px 
+------------------------------*/
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+/* Set body defaults 
+------------------------------*/
+body {
+    font-family: var(--font-family);
+    /*    font-size: 1.6rem;*/
+    min-height: 100vh;
+    text-rendering: optimizeSpeed;
+    line-height: 1.5;
+    
+}
+
+/* Make images easier to work with 
+------------------------------*/
+img, picture, video, canvas, svg {
+    max-width: 100%;
+    display: block;
+}
+
+/* Remove list styles  
+------------------------------*/
+ul, ol {
+    list-style: none;
+}
+
+/* Hyperlink styles remeved
+------------------------------*/
+a {
+    text-decoration: none;
+}
+
+
+/* Inherit fonts for inputs and buttons 
+------------------------------*/
+input, button, textarea, select {
+    font: inherit;
+}
