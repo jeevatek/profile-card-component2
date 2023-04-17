@@ -3,7 +3,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
 /* Box sizing rules 
 -------------------------------*/
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
 }
 
@@ -33,7 +35,8 @@ body {
   display: grid;
   place-content: center;
   background-color: #19a2ae;
-  background-image: url(../images/bg-pattern-top.svg), url(../images/bg-pattern-bottom.svg);
+  background-image: url(../images/bg-pattern-top.svg),
+    url(../images/bg-pattern-bottom.svg);
   background-position: top -50rem left -20rem, bottom -60rem right -15rem;
   background-repeat: no-repeat, no-repeat;
   background-size: 75rem, 75rem;
@@ -41,18 +44,23 @@ body {
 
 /* Make images easier to work with 
 ------------------------------*/
-img, picture, video, canvas, svg {
+img,
+picture,
+video,
+canvas,
+svg {
   max-width: 100%;
   display: block;
 }
 
 /* Remove list styles  
 ------------------------------*/
-ul, ol {
+ul,
+ol {
   list-style: none;
 }
 
-/* Hyperlink styles remeved
+/* Hyperlink styles removed
 ------------------------------*/
 a {
   text-decoration: none;
@@ -60,7 +68,10 @@ a {
 
 /* Inherit fonts for inputs and buttons 
 ------------------------------*/
-input, button, textarea, select {
+input,
+button,
+textarea,
+select {
   font: inherit;
 }
 
